@@ -2,7 +2,7 @@ import * as React from "react";
 import axios from "axios";
 import { gsap, Draggable, TweenMax, Power1 } from 'gsap/all'
 
-import  Arrow from "./Arrow";
+import  Arrow from "./elements/Arrow";
 import {
   SliderContainer,
   SlidesContainer,
@@ -12,7 +12,7 @@ import {
   ArrowsContainer,
   PrevButton,
   NextButton,
-} from "./StyledComponents";
+} from "./elements/styledComponents";
 
 import { api } from "./constants";
 

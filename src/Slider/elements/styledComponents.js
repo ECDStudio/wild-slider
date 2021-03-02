@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { sliderMaxWidth, sliderMaxHeight } from "./constants";
+import { sliderMaxWidth, sliderMaxHeight } from "../constants";
 
 export const SliderContainer = styled.div`
   position: relative;
